@@ -71,3 +71,45 @@ form {
   align-items: stretch;
   background-color: gray;
 }
+
+/* INPUTS */
+form input {
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--code-bg);
+  color: var(--text-h);
+  background-color: white;
+  transition: none; 
+}
+
+form input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* BUTTON */
+form button {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: purple; 
+  color: white;
+  cursor: pointer;
+  transition: none; 
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  form input,
+  form button {
+    font-size: 15px;
+  }
+}
