@@ -12,4 +12,44 @@ nav {
   z-index: 50;
 }
 
+/* Links + Logout button share the same style */
+nav a,
+nav button {
+  font-family: var(--sans);
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-h);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
 
+/* Hover effect */
+nav a:hover,
+nav button:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+/* Logout button specific */
+nav button {
+  background: transparent;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  nav {
+    gap: 12px;
+    padding: 12px 0;
+  }
+
+  nav a,
+  nav button {
+    padding: 6px 12px;
+    font-size: 15px;
+  }
+}
