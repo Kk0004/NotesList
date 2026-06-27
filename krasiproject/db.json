@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "username": "lmao",
+      "id": "bv5adPKm5o4"
+    },
+    {
+      "username": "krasi",
+      "id": "LAKPopAxP9E"
+    },
+    {
+      "username": "nigger",
+      "password": "nigger123",
+      "id": "KXJXJGYVXus"
+    },
+    {
+      "username": "pingasMario",
+      "password": "mario123",
+      "id": "q1UJUdiwpLg"
+    },
+    {
+      "username": "krasimir",
+      "password": "ghost",
+      "id": "S3v74Wafm4A"
+    }
+  ],
+  "notes": [
+    {
+      "title": "dibs",
+      "id": "9AfiWJ3TFLk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
